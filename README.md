@@ -30,7 +30,7 @@ tags:
   down projection (`ffn_down_shexp`) and the Engram value projection (`engram_wkv`). The **routed experts are left
   exactly as ISTA shipped them**, so GSQ's learned low-bit rounding of the experts is preserved byte for byte, and
   each file stays the same size and runs wherever the original runs.
-- The replaced tensors carry the one-direction edit (EN + RU, strength 2.0) baked into DeepSeek's weights at full
+- The replaced tensors carry the one-direction refusal edit (strength 2.0) baked into DeepSeek's weights at full
   precision and quantized to ISTA's exact per-tensor type.
 - Runs on a **single 12 GB GPU** with [Strata](https://github.com/Niko1221/Strata): the backbone sits in system
   memory and the shared **Engram table streams from an SSD**, so a 763B model fits a consumer machine.
@@ -43,7 +43,7 @@ Both files served on Strata, same prompts and template; "→" reads the stock GS
 
 | Rung | bpw | Total GB | JailbreakBench (EN) | XSTest (safe refused) | Thinking high (30) | MMLU (500) | KL to stock |
 |---|---|---|---|---|---|---|---|
-| `IQ2_XXS` | 2.0 | 249 | 85.2% → **0.0%** | 7.6% → 0.0% | 27/30 → **0/30** | 82.8% (p=0.27) | — |
+| `IQ2_XXS` | 2.0 | 249 | 85.2% → **0.0%** | 7.6% → 0.0% | 27/30 → **0/30** | 82.8% (p=0.27) | 0.0225 |
 | `IQ2_XS` | 2.25 | 266 | 86.4% → **0.0%** | 4.0% → 0.4% | 27/30 → **2/30** | 81.6% (p=1.00) | — |
 | `IQ1_M` | 1.75 | 231 | 88.9% → **0.0%** | 4.8% → 0.0% | 27/30 → **1/30** | 80.6% (p=0.75) | — |
 
