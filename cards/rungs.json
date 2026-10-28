@@ -1,0 +1,22 @@
+{
+  "IQ2_XXS": {
+    "stock": {
+      "refusal_en": 0.8518518518518519,
+      "refusal_ru": 0.57,
+      "xstest": 0.076,
+      "think_high": 27,
+      "mmlu": 0.838
+    },
+    "ours": {
+      "refusal_en": 0.0,
+      "refusal_ru": 0.0,
+      "xstest": 0.0,
+      "think_high": 0,
+      "think_unclosed": 0,
+      "think_loops": 3,
+      "mmlu": 0.828,
+      "mmlu_p": 0.266845703125
+    },
+    "pass": true
+  }
+}
