@@ -38,5 +38,25 @@
       "mmlu_p": 0.75390625
     },
     "pass": true
+  },
+  "IQ2_XS": {
+    "stock": {
+      "refusal_en": 0.8641975308641975,
+      "refusal_ru": 0.64,
+      "xstest": 0.04,
+      "think_high": 27,
+      "mmlu": 0.814
+    },
+    "ours": {
+      "refusal_en": 0.0,
+      "refusal_ru": 0.0,
+      "xstest": 0.004,
+      "think_high": 2,
+      "think_unclosed": 0,
+      "think_loops": 2,
+      "mmlu": 0.816,
+      "mmlu_p": 1.0
+    },
+    "pass": false
   }
 }
