@@ -35,6 +35,8 @@ tags:
 - Runs on a **single 12 GB GPU** with [Strata](https://github.com/Niko1221/Strata): the backbone sits in system
   memory and the shared **Engram table streams from an SSD**, so a 763B model fits a consumer machine.
 
+> Not every rung cleared every gate; such a rung is published as measured, with its numbers in the table and the metrics repo.
+
 ## What changed and what did not
 
 Both files served on Strata, same prompts and template; "→" reads the stock GSQ-RCO rung → this one.
@@ -42,6 +44,7 @@ Both files served on Strata, same prompts and template; "→" reads the stock GS
 | Rung | bpw | Total GB | JailbreakBench (EN) | XSTest (safe refused) | Thinking high (30) | MMLU (500) | KL to stock |
 |---|---|---|---|---|---|---|---|
 | `IQ2_XXS` | 2.0 | 249 | 85.2% → **0.0%** | 7.6% → 0.0% | 27/30 → **0/30** | 82.8% (p=0.27) | — |
+| `IQ2_XS` | 2.25 | 266 | 86.4% → **0.0%** | 4.0% → 0.4% | 27/30 → **2/30** | 81.6% (p=1.00) | — |
 | `IQ1_M` | 1.75 | 231 | 88.9% → **0.0%** | 4.8% → 0.0% | 27/30 → **1/30** | 80.6% (p=0.75) | — |
 
 KL is the edit's distribution shift from the stock rung, from Strata's teacher-forced score mode: a top-64 lower
