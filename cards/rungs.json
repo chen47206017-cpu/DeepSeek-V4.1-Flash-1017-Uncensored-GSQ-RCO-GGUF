@@ -17,7 +17,8 @@
       "mmlu": 0.828,
       "mmlu_p": 0.266845703125
     },
-    "pass": true
+    "pass": true,
+    "kl_to_stock": 0.0225
   },
   "IQ1_M": {
     "stock": {
