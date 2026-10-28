@@ -59,6 +59,7 @@
       "mmlu": 0.816,
       "mmlu_p": 1.0
     },
-    "pass": false
+    "pass": false,
+    "kl_to_stock": 0.0272
   }
 }
