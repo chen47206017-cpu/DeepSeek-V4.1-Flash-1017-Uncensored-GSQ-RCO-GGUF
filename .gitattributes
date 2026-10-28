@@ -40,3 +40,4 @@ DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ2_XXS-00004-of-00004.gguf filter=lfs diff=lfs
 DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-00001-of-00004.gguf filter=lfs diff=lfs merge=lfs -text
 DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-00002-of-00004.gguf filter=lfs diff=lfs merge=lfs -text
 DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-00003-of-00004.gguf filter=lfs diff=lfs merge=lfs -text
+DeepSeek-V4.1-Flash-1017-GSQ-RCO-IQ1_M-00004-of-00004.gguf filter=lfs diff=lfs merge=lfs -text
