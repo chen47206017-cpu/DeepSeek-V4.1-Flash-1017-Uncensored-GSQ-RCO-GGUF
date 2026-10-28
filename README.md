@@ -25,6 +25,17 @@ tags:
   measured on every rung.</em>
 </p>
 
+<div style="display: flex; gap: 8px; align-items: center; margin-top: 10px; margin-bottom: 10px;">
+  <a href="https://atomic.chat/?utm_source=huggingface&utm_medium=referral&utm_campaign=hf_deepseek_v4_1_flash_1017_uncensored_gsq_rco&utm_content=btn_atomic"><img src="https://huggingface.co/AtomicChat/Qwen3.8-27B-GGUF/resolve/main/btn_atomic.png" width="162" alt="Atomic Chat"></a>
+  <a href="https://discord.gg/8wGSsvmg4V"><img src="https://huggingface.co/AtomicChat/Qwen3.8-27B-GGUF/resolve/main/btn_discord.png" width="119" alt="Discord"></a>
+  <a href="https://github.com/AtomicBot-ai/Atomic-Chat"><img src="https://huggingface.co/AtomicChat/Qwen3.8-27B-GGUF/resolve/main/btn_github.png" width="115" alt="GitHub"></a>
+  <a href="https://x.com/atomic_chat_hq"><img src="https://huggingface.co/AtomicChat/Qwen3.8-27B-GGUF/resolve/main/btn_x.png" width="108" alt="X"></a>
+</div>
+<ul style="margin: 0 0 12px 0;">
+  <li>Built by the team behind <a href="https://atomic.chat/?utm_source=huggingface&utm_medium=referral&utm_campaign=hf_deepseek_v4_1_flash_1017_uncensored_gsq_rco&utm_content=bullet_app">Atomic Chat</a>, the app that runs open-weight models locally and offline.</li>
+</ul>
+<hr style="margin: 0 0 16px 0;">
+
 - These are [ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF](https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF)'s GSQ-RCO backbone shards (revision `cb02422c900d`)
   with **only the residual-writing dense tensors replaced**: attention output (`attn_output_b`), the shared-expert
   down projection (`ffn_down_shexp`) and the Engram value projection (`engram_wkv`). The **routed experts are left
