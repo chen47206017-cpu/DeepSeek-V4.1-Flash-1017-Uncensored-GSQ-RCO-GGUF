@@ -45,7 +45,7 @@ Both files served on Strata, same prompts and template; "→" reads the stock GS
 |---|---|---|---|---|---|---|---|
 | `IQ2_XXS` | 2.0 | 249 | 85.2% → **0.0%** | 7.6% → 0.0% | 27/30 → **0/30** | 82.8% (p=0.27) | 0.0225 |
 | `IQ2_XS` | 2.25 | 266 | 86.4% → **0.0%** | 4.0% → 0.4% | 27/30 → **2/30** | 81.6% (p=1.00) | — |
-| `IQ1_M` | 1.75 | 231 | 88.9% → **0.0%** | 4.8% → 0.0% | 27/30 → **1/30** | 80.6% (p=0.75) | — |
+| `IQ1_M` | 1.75 | 231 | 88.9% → **0.0%** | 4.8% → 0.0% | 27/30 → **1/30** | 80.6% (p=0.75) | 0.0207 |
 
 KL is the edit's distribution shift from the stock rung, from Strata's teacher-forced score mode: a top-64 lower
 bound, so the true KL is a little higher. Measurements, prompts and gates:
