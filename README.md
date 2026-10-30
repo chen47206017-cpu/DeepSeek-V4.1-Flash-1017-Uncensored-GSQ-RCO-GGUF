@@ -2,7 +2,8 @@
 license: mit
 base_model:
 - ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF
-base_model_relation: finetune
+- deepseek-ai/DeepSeek-V4.1-Flash-1017
+base_model_relation: quantized
 quantized_by: AtomicChat
 pipeline_tag: text-generation
 library_name: gguf
@@ -16,6 +17,7 @@ tags:
 - strata
 - abliteration
 - refusal-direction
+- uncensored
 ---
 
 # DeepSeek-V4.1-Flash-1017 Without Refusals · GSQ-RCO
