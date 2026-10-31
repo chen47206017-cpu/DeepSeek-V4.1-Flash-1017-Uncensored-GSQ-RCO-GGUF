@@ -61,7 +61,7 @@ Both files served on Strata, same prompts and template; "→" reads the stock GS
 | `IQ1_M` | 1.75 | 231 | 88.9% → **0.0%** | 4.8% → 0.0% | 27/30 → **1/30** | 80.6% (p=0.75) | 0.0207 |
 
 KL is the edit's distribution shift from the stock rung, from Strata's teacher-forced score mode: a top-64 lower
-bound, so the true KL is a little higher. The shift is small enough (KL ~0.02, MMLU-500 within ~1 pt of the stock quant) that the GSQ-RCO quant's task accuracy is preserved: ISTA-DASLab's GPQA-Diamond, AIME25 and LiveCodeBench-v6 numbers for the stock quant carry over. Measurements, prompts and gates:
+bound, so the true KL is a little higher. The shift is small enough (KL ~0.02, MMLU-500 within ~1 pt of the stock quant) that the GSQ-RCO quant's task accuracy is preserved: measured on IQ2_XXS at reasoning effort 50: GPQA-Diamond 83.3% (stock 83.3%), AIME25 80.0% (stock 76.7%) — ours matches the stock GSQ-RCO quant. Numbers in the metrics repo. Measurements, prompts and gates:
 [AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GGUF-metrics](https://huggingface.co/datasets/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GGUF-metrics) (`ablit/gsq/`).
 
 ## Running it
